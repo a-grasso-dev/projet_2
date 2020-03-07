@@ -23,7 +23,7 @@
     
 }
 
-.info{ /* titoli gialli a sinistra */
+.title_menu{ /* titoli gialli a sinistra */
     font-size: 1.2em;
     background-color: rgb(51, 51, 51);
     width: 100%;
@@ -35,7 +35,7 @@
 }
 
 
-p, ul, .sous_titre{
+p, ul, .sous_titre, .managers{
     font-family: 'Trebuchet MS', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 0.9em;
     text-align: justify;
@@ -60,7 +60,7 @@ ul{
  }
 
 
- header{
+ #section_one{
      display: flex;
      flex-direction: column;
      width: 66%;
@@ -152,23 +152,23 @@ h3{
     margin-left: 30px;
 }
 
-footer{
+#recommendations{
     display: flex;
 }
 
-.footer{
+.managers{
     margin: 40px 10%;
 }
 
 
-.header{
+main{
     
     max-height: 70%;
     min-height: 70%;
 }
 
 
-.title{
+header{
     margin: 140px 100px 0 100px;
 }
 
@@ -191,7 +191,7 @@ h6{
 .sous_titre{
     margin: 11px 0;
 }
-.infos{
+.details{
     margin-left: 25px;
     width: 908px;
 }
@@ -215,6 +215,7 @@ h6{
   .bloc-puce{
       width: 20px;
       height: 20px;
+      margin-top: 5px;
   }
 
   #menu :nth-child(5){
@@ -236,12 +237,12 @@ h6{
         width: 150px;
         height: 150px;
     }
-    header{
+    #section_one{
         height: -webkit-fill-available;
         overflow: auto;
     }
 
-    .info{
+    .title_menu{
         margin-top: 50px;
     }
 }
@@ -262,7 +263,7 @@ h6{
         display: block;
         margin: 0;
     }
-    footer{
+    #recommendations{
         justify-content: center;
     }
     .container{
@@ -280,11 +281,8 @@ h6{
     .bloc2{
         margin: 30px 30px
     }
-    header{
+    #section_one{
         width: 100%;
-    }
-    .bloc-puce{
-        margin-top: 5px;
     }
 }
 
@@ -293,16 +291,16 @@ h6{
         display: flex;
         flex-wrap: wrap;
     }
-    .infos{
+    .details{
         margin: auto;
     }
     h6{
         margin: 30px 0 30px 0;
     }
     .date{
-        width: auto;
+        width: 267px;
     }
-    footer{
+    #recommendations{
         flex-wrap: wrap;
         justify-content: flex-start;
     }
