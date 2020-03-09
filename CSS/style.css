@@ -154,7 +154,7 @@ li{
 }
 .date{
     width: 330px;
-    margin-left: 17px;
+    display: flex;
 }
 h6{
     font-size: 1.3em;
@@ -190,6 +190,7 @@ h6{
       width: 20px;
       height: 20px;
       margin-top: 5px;
+      margin-right: 13px;
   }
   #menu :nth-child(5){
       flex: 1;
@@ -270,5 +271,8 @@ h6{
     #recommendations{
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+    h3{
+        font-size: 1.2em;
     }
 }
