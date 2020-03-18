@@ -117,12 +117,10 @@ h5 {
   color: #000000b0;
 }
 .border {
-  /* tratto giallo piccolo */
-
-  height: 3px;
-  border-bottom: 2px solid #4fc3f7;
+  border-bottom: 2px solid #4fc3f7; /* trait petit */
   width: 60px;
   margin-bottom: 20%;
+  margin-top: 3px;
 }
 h3 {
   font-size: 1.5em;
@@ -137,7 +135,7 @@ h3 {
 }
 .bloctitle {
   display: flex;
-  border-bottom: 2px solid #4fc3f7; /* tratto giallo lungo */
+  border-bottom: 2px solid #4fc3f7; /* trait long */
   margin-left: 30px;
   align-items: center;
 }
